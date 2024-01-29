@@ -1,0 +1,36 @@
+{
+  "name": "@test/design-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "storybook dev -p 6007",
+    "build-storybook": "storybook build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@test/core": "workspace:^",
+    "tslib": "^2.6.2"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^7.6.10",
+    "@storybook/addon-controls": "^7.6.10",
+    "@storybook/addon-docs": "^7.6.10",
+    "@storybook/addon-essentials": "^7.6.10",
+    "@storybook/addon-knobs": "^7.0.2",
+    "@storybook/addon-links": "^7.6.10",
+    "@storybook/addons": "^7.6.10",
+    "@storybook/react": "^7.6.10",
+    "@storybook/react-vite": "^7.6.10",
+    "@types/react": "^16.14.56",
+    "@types/react-dom": "^16.9.24",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "storybook": "^7.6.10"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2"
+  }
+}

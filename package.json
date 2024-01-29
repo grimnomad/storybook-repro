@@ -1,0 +1,15 @@
+{
+  "name": "babel-const-asserstion-error",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "4.9.5"
+  },
+  "pnpm": {
+    "overrides": {
+      "@types/react": "^17"
+    }
+  }
+}

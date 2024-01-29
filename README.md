@@ -1,0 +1,1 @@
+Run `pnpm i` for installation. Then change to the design-system directory and start Storybook via `pnpm storybook`. In the browser select the `Header` component.

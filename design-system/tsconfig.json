@@ -1,0 +1,51 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    // once node has proper ES module support,
+    // this could be bumped to ESNext as used in the webstack
+    "allowJs": true,
+
+    // enable all strict checks, type-checking yeah!
+    "strict": true,
+
+    // additional lints are not enabled
+    // as they result in errors and stop the build
+    // process, hence, linting is done in a separate
+    // step (still treating a CI job as failure though)
+
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "downlevelIteration": true,
+    "allowSyntheticDefaultImports": true,
+
+    // for better debugging
+    "inlineSourceMap": true,
+    "inlineSources": true,
+
+    // for better development
+    "declarationMap": true,
+    "module": "CommonJS",
+
+    "jsx": "react",
+
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext"
+    ],
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "emitDeclarationOnly": true,
+    "declaration": true,
+    "paths": {
+      "react": ["./node_modules/@types/react"],
+      "react/*": ["./node_modules/@types/react/*"]
+    }
+  },
+
+  "include": ["./src/**/*"]
+}
